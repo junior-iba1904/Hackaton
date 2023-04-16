@@ -25,4 +25,13 @@ body{
     margin-right: 50px;
 }
 
+footer{
+	margin-top: 100px;
+	height: 100px;
+	background-color: #6d6dfb;
+	text-align: center;
+	font-size: 15px;
+	padding: 30px;
+}
+
 

@@ -1,8 +1,37 @@
-.carrito img{
-    width: 750px;
-    height: 750px;
-}
 
 .flash h1{ 
     text-align: center;
+}
+
+.cuerpo{
+    margin-top: 10%;
+    height: 460px;
+}
+
+.cuerpo h1{
+    margin-bottom: 50px;
+}
+
+@media(max-width: 778px) {
+    .interno{
+        display: block;
+    }
+
+    .cuerpo{
+        height: 800px;
+    }
+
+    footer{
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 400px){
+    footer{
+        margin-top: 0px;
+    }
+
+    .cuerpo{
+        height: 600px;
+    }
 }
