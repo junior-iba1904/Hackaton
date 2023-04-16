@@ -4,13 +4,18 @@
 }
 
 .cuerpo{
+    margin-top: 5%;
+    height: 580px;
+}
+
+.flash{
     margin-top: 10%;
-    height: 460px;
 }
 
 .cuerpo h1{
     margin-bottom: 50px;
 }
+
 
 @media(max-width: 778px) {
     .interno{
