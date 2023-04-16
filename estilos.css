@@ -40,3 +40,9 @@
         height: 600px;
     }
 }
+
+@media(max-height:753.60px){
+    footer{
+        margin-top: 0px;
+    }
+}
