@@ -27,6 +27,6 @@
 }
 
 .card:hover{
-    border-color: black;
+    border: 2px solid #6d6dfb;
     cursor: pointer;
 }
