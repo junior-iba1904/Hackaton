@@ -35,4 +35,53 @@ footer{
 	position:absolute;
 }
 
+.title-card{
+	text-align: center;
+	margin-bottom: 20px;
+}
 
+.card-carro{
+	position: fixed ;
+	top: 0;
+	right: 0;
+	width: 360px;
+	min-height: 100vh;
+	padding: 30px;
+	box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
+	background: white;
+}
+
+.content-card{
+	display: grid;
+	grid-template-columns: 65% 35%;
+	text-align: center;
+
+}
+
+.cantidad-producto{
+	border: 1px solid black;
+	width: 2.4rem;
+	text-align: center;
+	margin-bottom: 15px;
+	
+}
+
+.title-producto{
+	font-style:inherit;
+	font-size: 1.3rem;
+	margin: 5px 0px;
+}
+
+.precio-producto{
+	font-style:inherit;
+	font-size: 1.3rem;
+	margin: 5px 0px;
+}
+
+
+.quitar-card{
+	text-align: center;
+	color: red;
+	cursor: pointer;
+	padding-top: 40px;
+}
