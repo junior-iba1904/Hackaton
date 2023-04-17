@@ -1,5 +1,5 @@
 .cuerpo{
-    height: 950px;
+    height: 1150px;
 }
 
 .container1{
@@ -7,7 +7,6 @@
     margin-top: 100px;
     border: 3px solid #6d6dfb;
     border-radius: 20px;
-    height: 430px;
 }
 
 .container1 .tittle{
@@ -23,7 +22,6 @@
     margin-top: 100px;
     border: 3px solid #6d6dfb;
     border-radius: 20px;
-    height: 430px;
 }
 
 .container2 .tittle{
@@ -44,7 +42,35 @@
     height: 200px;
 }
 
-.card:hover{
-    border: 2px solid #6d6dfb;
-    cursor: pointer;
+.card h4{
+    text-align: center;
+    padding: 10px;
+    background-color: #6d6dfb;
 }
+
+.card:hover{
+    background-color: #6d6dfb;
+    color: white;
+}
+
+.card img{
+    width: 286px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body{
+    padding: 10px;
+    text-align: center;
+}
+
+.card-body h5{
+    padding: 10px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.bloques{
+    padding: 30px 0px 40px 0px;
+}
+
