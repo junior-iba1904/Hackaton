@@ -53,6 +53,7 @@ footer{
 	padding: 30px;
 	box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
 	background: white;
+	transition: 0.4s;
 }
 
 .card-carro.active{
