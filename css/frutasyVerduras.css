@@ -1,24 +1,42 @@
 .cuerpo{
-    height: 580px;
+    height: 950px;
 }
 
 .container1{
-    padding: 50px;
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 100px;
     border: 3px solid #6d6dfb;
     border-radius: 20px;
+    height: 430px;
 }
 
 .container1 .tittle{
     padding: 20px;
-    margin-left: 10px;
     font-size: 30px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #6d6dfb;
+}
+
+.container2{
+    margin-left: 20px;
+    margin-top: 100px;
+    border: 3px solid #6d6dfb;
+    border-radius: 20px;
+    height: 430px;
+}
+
+.container2 .tittle{
+    padding: 20px;
+    font-size: 30px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #6d6dfb;
 }
 
 .card{
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 60px;
 }
 
 .card img{
