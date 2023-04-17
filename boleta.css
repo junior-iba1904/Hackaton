@@ -1,0 +1,46 @@
+  
+  h1 {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border-collapse: collapse;
+    border: solid 1px #ccc;
+  }
+  .table tr {
+    text-align: center;
+  }
+  
+  button[type="button"] {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilos adicionales al botón*/
+  button[type="button"]:hover {
+    background-color: #555;
+  }
+  
+  
+  
