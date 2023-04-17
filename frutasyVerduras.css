@@ -1,0 +1,32 @@
+.cuerpo{
+    height: 580px;
+}
+
+.container1{
+    padding: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border: 3px solid #6d6dfb;
+    border-radius: 20px;
+}
+
+.container1 .tittle{
+    padding: 20px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.card{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+}
+
+.card:hover{
+    border-color: black;
+    cursor: pointer;
+}
