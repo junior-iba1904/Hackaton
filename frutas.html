@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="css/global.css">
     <script src="js/bootstrap/bootstrap.min.js"></script>
+    
     <link rel="stylesheet" href="css/frutasyVerduras.css">
     <title>FRUTAS-VERDURAS</title>
 </head>
@@ -30,7 +31,7 @@
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="#">Registrarse</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Carrito</a></li>
+                        <li class="nav-item"><a class="nav-link" id="carrito">Carrito</a></li>
                         
                     </ul>
                 </div>
@@ -113,11 +114,11 @@
                   <input type="number" value="1" class="cantidad-producto"> 
                 </div>
                 
-                <h4 class="quitar-card">X</h4>
+                <h4 class="quitar-producto">x</h4>
               </div>
             <!-- Total Precio -->
             <div class="total">
-              <div class="title-total">Total</div>
+              <div class="title-total">Total:</div>
               <div class="precio-total">$ 0</div>
             </div>
     
@@ -125,9 +126,11 @@
             <button type="button" class="btn-compra">BUY NOW</button>
     
             <!-- Cerrar card-->
-            <h2 class="quitar-card">X</h2>
+            <h2 class="quitar-card">></h2>
 
           </div>
+          
+          <script src="js/carro.js"></script>
 
     <footer>
         <div>
