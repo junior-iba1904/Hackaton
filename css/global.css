@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	text-transform: capitalize;
+
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.navbar{
+    background-color: #6d6dfb;
+}
+
+.navbar-nav .nav-item{
+    padding: 5px;
+    margin-right: 50px;
+}
+
+footer{
+	margin-top: 100px;
+	height: 100px;
+	background-color: #6d6dfb;
+	text-align: center;
+	font-size: 15px;
+	padding: 30px;
+	position:absolute;
+}
+
+#carrito{
+	cursor: pointer;
+}
+
+.title-card{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.card-carro{
+	position: fixed ;
+	top: 0;
+	right: -100%;
+	width: 300px;
+	min-height: 100vh;
+	padding: 30px;
+	box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
+	background: white;
+	transition: 0.4s;
+}
+
+.card-carro.active{
+	right: 0;
+}
+
+.content-card{
+	display: grid;
+	grid-template-columns: 65% 35%;
+	text-align: center;
+
+}
+
+.cantidad-producto{
+	border: 1px solid black;
+	width: 2.4rem;
+	text-align: center;
+	margin-bottom: 15px;
+	
+}
+
+.title-producto{
+	font-style:inherit;
+	font-size: 1.3rem;
+	margin: 5px 0px;
+}
+
+.precio-producto{
+	font-style:inherit;
+	font-size: 1.3rem;
+	margin: 5px 0px;
+}
+
+.quitar-producto{
+	text-align: center;
+	color: red;
+	cursor: pointer;
+	padding-top: 40px;
+}
+
+.total{
+	display: flex;
+	justify-content: flex-end;
+	text-align: center;
+	margin-top: 2.5rem;
+	border-top: 2px solid black;
+}
+
+.title-total{
+	font-size: 1.2rem;
+	margin-right: 10px;
+}
+
+.precio-total{
+	font-size: 1.2rem;
+	margin-right: 10px;
+}
+
+.btn-compra{
+	display: flex;
+	background-color:rebeccapurple;
+	padding: 4px 7px;
+	border: none;
+	margin: 20px auto 0px auto;
+	color: white;
+}
+
+.quitar-card{
+	position: absolute;
+	top: 0.2rem;
+	right: 1rem;
+	color: rebeccapurple;
+	cursor: pointer;
+}
+
+
+

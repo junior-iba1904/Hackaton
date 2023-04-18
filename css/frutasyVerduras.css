@@ -1,0 +1,76 @@
+.cuerpo{
+    height: 1150px;
+}
+
+.container1{
+    margin-left: 20px;
+    margin-top: 100px;
+    border: 3px solid #6d6dfb;
+    border-radius: 20px;
+}
+
+.container1 .tittle{
+    padding: 20px;
+    font-size: 30px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #6d6dfb;
+}
+
+.container2{
+    margin-left: 20px;
+    margin-top: 100px;
+    border: 3px solid #6d6dfb;
+    border-radius: 20px;
+}
+
+.container2 .tittle{
+    padding: 20px;
+    font-size: 30px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #6d6dfb;
+}
+
+.card{
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+}
+
+.card h4{
+    text-align: center;
+    padding: 10px;
+    background-color: #6d6dfb;
+}
+
+.card:hover{
+    background-color: #6d6dfb;
+    color: white;
+}
+
+.card img{
+    width: 286px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body{
+    padding: 10px;
+    text-align: center;
+}
+
+.card-body h5{
+    padding: 10px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.bloques{
+    padding: 30px 0px 40px 0px;
+}
+
