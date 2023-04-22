@@ -1,0 +1,62 @@
+body{
+    background: #ececec;    
+}
+
+.box-area{
+    width: 900px;
+    border-radius: 20px;
+}
+
+.columna1{
+    background: #6d6dfb;
+    border-radius: 20px;
+}
+
+.columna1 img{
+    margin-top: 50px;
+}
+
+.columna1 p{
+    text-align: center;
+    font-weight: 600px;
+}
+
+.columna2{
+    padding: 40px 30px 40px 40px;
+}
+
+.logo{
+    text-align: center;
+}
+
+::placeholder{
+    font-size: 16px;
+}
+
+.btn-google{
+    width: 20px;
+}
+
+footer{
+    margin-top: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .box-area{
+        margin: 0 10px;
+    }
+
+    .columna1{
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .columna1 img{
+        width: 250px;
+    }
+
+    .columna2{
+        padding: 20px;
+    }
+    
+}
