@@ -16,6 +16,11 @@ body{
 	align-items: center;
 }
 
+.barra img{
+	width: 150px;
+	height: 70px;
+}
+
 .navbar{
     background-color: #6d6dfb;
 }

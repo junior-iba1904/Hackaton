@@ -5,6 +5,7 @@ body{
 .box-area{
     width: 900px;
     border-radius: 20px;
+    padding: 1rem;
 }
 
 .columna1{
@@ -19,6 +20,11 @@ body{
 .columna1 p{
     text-align: center;
     font-weight: 600px;
+}
+
+.btn-ini button{
+    background: #6d6dfb;
+    color: white;
 }
 
 .columna2{
@@ -59,4 +65,21 @@ footer{
         padding: 20px;
     }
     
+}
+
+@media only screen and (max-width: 993px) {
+    .logo img{
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .box-area{
+        padding: 0.25rem;
+        width: 300px;
+    }
+
+    .logo img{
+        width: 200px;
+    }
 }
