@@ -36,9 +36,9 @@
 }
 
 .card img{
-    width: 286px;
+    width: 200px;
     height: 200px;
-    object-fit: cover;
+    margin-left: 40px;
 }
 
 .card-body{
@@ -65,18 +65,19 @@
 
    .card{
     margin-left: 1px;
-    width: 10rem;
+    width: 8.5rem;
     height: 18.5rem;
     margin-bottom: 30px;
    }
 
    .card img{
-    width: 155px;
+    width: 130px;
     height: 100px;
+    margin-left: 0px;
    }
 
    .card h4{
-    font-size: 15px;
+    font-size: 10px;
    }
 
    .card h5{
