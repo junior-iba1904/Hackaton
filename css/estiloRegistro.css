@@ -1,0 +1,14 @@
+body{
+    background: #ececec;    
+}
+
+.registro{
+    margin-top: 100px;
+    width: 500px;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.logo{
+    text-align: center;
+}
